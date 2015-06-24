@@ -1,0 +1,7 @@
+<div class="creator" ng-controller="CreatorCtrl">
+  <div class="creator__display" ng_bind="encode()"></div>
+  <form ng-submit="recordAnswer()">
+    <input class="creator__input" type="text" ng-model="answer">
+    <input type="submit" name="play" value="Play!">
+  </form>
+</div>

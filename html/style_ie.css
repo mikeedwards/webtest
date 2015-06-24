@@ -1,0 +1,15 @@
+.content__column {
+    float: left;
+    width: 25%;
+    padding: 1em;
+}
+
+.sticker__copy {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.icon__image {
+    width: auto;
+}

@@ -1,0 +1,15 @@
+<div class="creator" ng-controller="PlayCtrl">
+  <div class="creator__reveal" ng-bind="reveal()"></div>
+  <form ng-submit="recordGuess()">
+    <input class="creator__guess" type="text" ng-model="guess">
+    <input type="submit">
+  </form>
+  <div class="creator__guesses">
+    Your guesses:
+    <span ng-bind="displayGuesses()"></span>
+  </div>
+  <div class="creator__remaining">
+    Guesses remaining:
+    <span ng-bind="calculateGuessesRemaining()"></span>
+  </div>
+</div>
